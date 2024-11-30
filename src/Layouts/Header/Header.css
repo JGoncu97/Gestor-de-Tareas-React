@@ -1,0 +1,33 @@
+.header-app {
+    width: 87vw;
+    height: 10rem;
+    flex-shrink: 0;
+    background-color: #4d2863;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border-top-left-radius: 1.7rem;
+    border-top-right-radius: 1.7rem;
+    border-bottom: 0.2rem solid black;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 1rem; 
+    width: 60rem;
+}
+
+.Logo {
+    width: 10rem;
+    height: 10rem;
+
+}
+.titleLogo{
+    margin-left: 2rem;
+   
+    width: 40rem;
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

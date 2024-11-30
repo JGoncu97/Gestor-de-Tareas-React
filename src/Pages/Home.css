@@ -1,0 +1,8 @@
+.Home{
+    border: solid black 0.2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    box-shadow: 0px 4px 8px 0px rgba(255, 255, 255, 0.7); 
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}

@@ -1,9 +1,17 @@
+import './App.css'
 import React from 'react'
+import { Home } from './Pages/Home'
+import { TaskProvider } from './Context/Context'
+
 
 export const App = () => {
   return (
     <>
-      <h1>HOla</h1>
+      <TaskProvider>
+        <Home/>
+      </TaskProvider>
+        
+      
     </>
   )
 }
