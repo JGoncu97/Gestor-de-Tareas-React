@@ -17,6 +17,8 @@ const task = [
 export const TaskProvider = ({ children }) => {
     const [tasks, setTask] = useState(task);
     const [filterTasks, setFilter] = useState(task);
+    const [pendingTasks,setPending] = useState(0);
+    const [doneTasks, setDone] = useState(0);
 
     const updateTaksStatus = (taskId, newStatus)=>{
         setTask(prevTasks => {
@@ -58,6 +60,10 @@ export const TaskProvider = ({ children }) => {
             setTask,
             filterTasks,
             setFilter,
+            pendingTasks,
+            setPending,
+            doneTasks, 
+            setDone,
             updateTaksStatus,
             addNewTask
         }}>

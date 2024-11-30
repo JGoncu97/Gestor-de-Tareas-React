@@ -1,0 +1,27 @@
+.container-filters {
+    width: 40rem;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 1rem;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;git 
+  }
+  
+  .container-filters > label {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin: 0.2rem;
+    font-weight: 800;
+  }
+  
+  .container-filters > select {
+    width: 18rem;
+    border-radius: 25px;
+    margin-left: 0.5rem;  
+    color: #000000;
+    font-size: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
